@@ -1,0 +1,129 @@
+.root {
+  background-color: red;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.top {
+  display: flex;
+  background-color: rgb(235, 226, 226);
+  justify-content: space-between;
+}
+
+.headings {
+  color: orange;
+  font-size: 3rem;
+  padding-left: 2rem;
+  margin-bottom: 0%;
+}
+
+.footer {
+  display: flex;
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+}
+
+.search {
+  background-color: white;
+  color: blue;
+}
+
+.mytext {
+  height: 26px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.table {
+  background-color: rgb(255, 255, 255) !important;
+  margin-left: 3rem;
+  padding: 2rem;
+  max-width: 100%;
+}
+
+.table th,
+td {
+  border: 1px solid black;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  /* width: 10%; */
+  /* padding-top: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  padding-bottom: 0.5rem; */
+}
+
+.table tr,
+td {
+  /* display: flex;
+  flex-wrap: wrap; */
+  padding: 0.5rem;
+  background-color: #fefeff;
+}
+
+.table {
+  max-height: 300px; /* Set the maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrollbar if content overflows */
+}
+
+.button {
+  background-color: #3330b6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.editbutton {
+  background-color: #0c8053;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 4px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.deletebutton {
+  background-color: #db0e0e;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 4px;
+  margin: 2px;
+  cursor: pointer;
+}
+.closebutton button {
+  margin-left: 253px;
+  margin-top: 20px;
+  background-color: rgb(230, 20, 20);
+}
+.formDesign {
+  background-color: rgb(23, 166, 209);
+  z-index: -1;
+  padding: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+.formDesign input {
+  margin: 5px;
+}
+.search_button {
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+/* 
+.table_container {
+} */
